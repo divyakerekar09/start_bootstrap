@@ -1,0 +1,363 @@
+#nav {
+   
+  
+    width: 100%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 700;
+}
+
+.navbar{
+  position: fixed;
+    background-color:  rgb(44,62,80);
+    padding: 20px ;
+}
+.navbar-light .navbar-nav .nav-link {
+    padding: 30px;
+    color: white; 
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+   
+    color: rgb(26,188,156);
+}
+.navbar-light .navbar-brand {
+    color: white;
+    font-size: 1.75em;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 700;
+}
+.navbar-light .navbar-brand:hover {
+    color: white;   
+}
+.abc{
+    padding-right: 0px;
+}
+.button{
+    background-color: rgb(26,188,156);
+  border-radius: 10px;
+  border-color: white;
+}
+.button:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem white;
+}
+
+.box{
+    text-align: center;
+    background-color: rgb(26,188,156);
+    padding-top: 150px;
+    
+    /* height: 100%; */
+    /* z-index: 1; */
+    
+   
+}
+.box img{
+    width: 15rem;
+}
+
+.box  h1{
+    color: white;
+    font-size: 4rem;
+    line-height: 3.5rem;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 700;
+}
+.box p{
+    color: white;
+    font-size: 1.25rem;
+    line-height: 3.5rem;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 500;
+    padding-bottom: 40px;
+    margin-top: -20px;
+}
+
+.stars_line{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin: 10px 0px;
+}
+
+
+.line{
+    width: 100px;
+    height: 4px;
+    background-color:white;
+    border: none;
+    margin: 20px;
+}
+.line{
+    border: 5px solid white;
+    border-radius: 10px;
+    height: 0px;
+    margin-top: 35px;
+   
+}
+ .box i{
+    font-size: 40px;
+    color: white;
+    margin-top:12px;
+}
+.box2{
+    text-align: center;
+   
+}
+.box2 h1{
+    font-size: 3rem;
+    line-height: 2.5rem;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 700;
+}
+.line{
+    border: 5px solid  rgb(44,62,80);
+    border-radius: 10px;
+    height: 0px;
+    margin-top: 35px;
+      
+} 
+.box2 i{
+    font-size: 50px;
+     color: rgb(44,62,80);
+    
+}
+.stars_line{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin: 10px 0px;
+}
+
+.line{
+    width: 100px;
+    height: 4px;
+    background-color:white;
+    border: none;
+    /* margin-tp: 20px; */
+}
+
+.color_white{
+    color: white;
+}
+
+.color_blue{
+    color: #2C3E4F;
+    margin-top: -10px;
+}
+.line_blue{
+    width: 100px;
+    height: 4px;
+    background-color: #2C3E4F;
+    border: none;
+    margin: 20px;
+}
+.img11{
+        margin-bottom: 20px;
+        
+}
+.btn{
+    background-color: #17BC9B;
+    color: white;
+    margin-bottom: 50px;
+}
+
+.icon2 i{
+    color: white;
+     font-size: 90px;
+     height: 500px;
+     width: 600px;
+}
+.icon2 i:hover{
+   background-color: #17BC9B;
+   height:300px;
+}
+
+.modal-body .btn{
+    
+    background-color: #17BC9B;
+    color: white;
+    margin-bottom: 50px;
+}
+.image1{
+    height: 250px;
+    width: 350px;
+    background-image: url("cabin\ \(1\).png");
+    background-size: cover;
+  
+    border-radius: 10px;
+    
+    transition: 1s;
+   
+}
+
+/* .btn-close i{
+    font-size: 25px;
+    margin-right: 10px;
+} */
+.image2{
+    height: 250px;
+    width: 350px;
+    background-image: url("cake.png");
+    background-size: cover;
+  
+    border-radius: 10px;
+  
+    transition: 1s;
+   
+}
+.image3{
+    height: 250px;
+    width: 350px;
+    background-image: url("circus.png");
+    background-size: cover;
+  
+    border-radius: 10px;
+   
+    transition: 1s;
+   
+}
+.image4{
+    height: 250px;
+    width: 350px;
+    background-image: url("game.png");
+    background-size: cover;
+  
+    border-radius: 10px;
+    
+    transition: 1s;
+   
+}
+.image5{
+    height: 250px;
+    width: 350px;
+    background-image: url("safe.png");
+    background-size: cover;
+  
+    border-radius: 10px;
+    
+    transition: 1s;
+   
+}
+.image6{
+    height: 250px;
+    width: 350px;
+    background-image: url("submarine.png");
+    background-size: cover;
+  
+    border-radius: 10px;
+   
+    transition: 1s;
+   
+}
+
+.about{
+    background-color: rgb(26,188,156);
+    text-align: center;
+    color: white;
+}
+
+.about2{
+    width: 50%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.btn i{
+    /* font-size: 25px; */
+    margin-right: 10px;
+}
+
+.btn3:hover i{
+    color: #2C3E4F;
+}
+.form h1{
+    color: #2C3E4F;
+}
+
+.form{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.form1{
+    text-align: left;
+    width: 70%;
+     
+   
+}
+.form2{
+    border: none !important; 
+    border-bottom: 1px solid grey !important;
+    border-radius: 0px !important;
+}
+.send{
+    width: 8rem;
+    height: 50px;
+    background-color: rgb(26,188,156);
+    border-radius: 10px;
+    border: none;
+    color: white;
+}
+
+.foot{
+    width: 80%;
+}
+
+
+.footer{
+    background-color: #2C3E4F;
+    padding: 80px 0px;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+.icons{
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    margin-right: 10px;
+    text-align: center;
+}
+.icons:hover .detail-icons{
+   color: black;
+}
+.detail-icons{
+    font-size: 20px;
+
+    color: white;
+}
+
+.copyright{
+    background-color: #1A252F;
+    width: 100%;
+    color: white;
+    padding: 20px 0px;
+    text-align: center;
+}
+h4{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.footertext{
+    font-size: 18px;
+    width: 405px;
+}
+.footertext1{
+    font-size: 18px;
+    width: 200px;
+}
+.innertext{
+    width: 200px;
+}
+.footertext a{
+    text-decoration: underline;
+    text-decoration-color:#17BC9B;
+    color: #17BC9B ;
+}
+
